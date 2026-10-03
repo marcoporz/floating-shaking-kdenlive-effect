@@ -1,0 +1,97 @@
+schema_version: 7.2
+type: filter
+identifier: floating
+title: Floating
+version: 1
+copyright: "marcoporz"
+license: LGPLv2.1
+language: en
+tags:
+  - Video
+description: >
+  Nudges the image with a small, slowly-oscillating position and rotation
+  drift, for a gentle "floating" look (e.g. a logo or PNG hovering in
+  place). No keyframes needed: set the amplitude and speed once.
+parameters:
+  - identifier: amp_x
+    title: Horizontal amplitude
+    type: float
+    description: Maximum horizontal drift, in pixels.
+    minimum: 0
+    default: 15
+    mutable: yes
+    animation: yes
+    unit: pixels
+    widget: spinner
+
+  - identifier: amp_y
+    title: Vertical amplitude
+    type: float
+    description: Maximum vertical drift, in pixels.
+    minimum: 0
+    default: 10
+    mutable: yes
+    animation: yes
+    unit: pixels
+    widget: spinner
+
+  - identifier: amp_rotation
+    title: Rotation amplitude
+    type: float
+    description: Maximum rotation drift, in degrees.
+    minimum: 0
+    default: 1.5
+    mutable: yes
+    animation: yes
+    unit: degrees
+    widget: spinner
+
+  - identifier: speed
+    title: Speed
+    type: float
+    description: >
+      How fast the floating motion cycles, roughly in oscillations per
+      second. Lower is slower/dreamier, higher is jittery.
+    minimum: 0
+    maximum: 5
+    default: 0.2
+    mutable: yes
+    animation: no
+    widget: slider
+
+  - identifier: seed
+    title: Seed
+    type: integer
+    description: >
+      Shifts the motion pattern's phase. Give different clips a different
+      seed so they don't drift in sync with each other.
+    default: 0
+    mutable: yes
+    animation: no
+    widget: spinner
+
+  - identifier: pivot_x
+    title: Pivot X
+    type: float
+    description: >
+      Horizontal rotation pivot, normalized within the frame (0 = left
+      edge, 0.5 = center, 1 = right edge).
+    minimum: 0
+    maximum: 1
+    default: 0.5
+    mutable: yes
+    animation: no
+    widget: slider
+
+  - identifier: pivot_y
+    title: Pivot Y
+    type: float
+    description: >
+      Vertical rotation pivot, normalized within the frame (0 = top edge,
+      0.5 = center, 1 = bottom edge).
+    minimum: 0
+    maximum: 1
+    default: 0.5
+    mutable: yes
+    animation: no
+    widget: slider

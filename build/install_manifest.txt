@@ -1,0 +1,2 @@
+/usr/lib64/mlt-7/libmltfloating.so
+/usr/share/mlt-7/floating/filter_floating.yml

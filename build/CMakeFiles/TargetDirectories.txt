@@ -1,0 +1,9 @@
+/home/mk/Scaricati/floating-effect/build/CMakeFiles/mltfloating.dir
+/home/mk/Scaricati/floating-effect/build/CMakeFiles/edit_cache.dir
+/home/mk/Scaricati/floating-effect/build/CMakeFiles/rebuild_cache.dir
+/home/mk/Scaricati/floating-effect/build/CMakeFiles/list_install_components.dir
+/home/mk/Scaricati/floating-effect/build/CMakeFiles/install.dir
+/home/mk/Scaricati/floating-effect/build/CMakeFiles/install/local.dir
+/home/mk/Scaricati/floating-effect/build/CMakeFiles/install/strip.dir
+/home/mk/Scaricati/floating-effect/build/CMakeFiles/mltfloating_autogen_timestamp_deps.dir
+/home/mk/Scaricati/floating-effect/build/CMakeFiles/mltfloating_autogen.dir
