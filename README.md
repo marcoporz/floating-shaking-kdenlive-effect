@@ -65,7 +65,7 @@ fixed.)*
 
 ### Build & install (all distros)
 ```bash
-git clone https://github.com/marcoporz/floating-shaking.git
+git clone https://github.com/marcoporz/floating-shaking-kdenlive-effect.git
 cd floating-shaking
 ./install.sh
 ```
